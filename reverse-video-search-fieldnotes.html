@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reverse video search in practice: three clips, three different answers</title>
+<meta name="description" content="Reverse video search promises to find the source of a clip. I ran three files through it — a movie scene, a TikTok repost and a screen recording — to">
+<link rel="canonical" href="https://chesterred.github.io/notes/reverse-video-search-fieldnotes.html">
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 42rem; margin: 3rem auto; padding: 0 1.2rem;
+         font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  h1 { font-size: 1.6rem; line-height: 1.28; margin-bottom: .3rem; }
+  .meta { font-size: .85rem; opacity: .6; margin-bottom: 1.6rem; }
+  a { color: inherit; }
+  footer { margin-top: 2.8rem; font-size: .9rem; opacity: .65; }
+</style>
+</head>
+<body>
+<nav><a href="./">← AI video notes</a></nav>
+<h1>Reverse video search in practice: three clips, three different answers</h1>
+<div class="meta">2026-11-26 · working notes</div>
+<p>The movie scene resolved in seconds to the correct title and timestamp. That is the easy case: the frame has distinctive faces and production design, and the index clearly covers commercial film. The result page linked a clip database entry, not a streaming page, which is fine for attribution work.</p>
+<p>The screen recording returned nothing, as expected — no index covers private footage. Upload limits are the other constraint: files over a few hundred megabytes are rejected. The supported formats and size caps are listed on <a href="https://reversevideosearch.org/">Reverse Video Search</a>, and they matter more than the accuracy claims for day-to-day use.</p>
+<p>The TikTok repost was harder. It found near-duplicates but not the original uploader, because the clip had been cropped and re-coloured. Cropping seems to break the perceptual hash more than colour grading does. For takedown or credit requests, the near-duplicate list is still useful as a starting point.</p>
+<p>Verdict: genuinely useful for film and viral clips, useless for private recordings. Treat it as a lead generator, not proof.</p>
+<footer>Working notes on AI video tools. Written and maintained by the site author; no sponsored placement.</footer>
+</body>
+</html>

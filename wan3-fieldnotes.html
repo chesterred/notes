@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wan 3 first impressions: longer clips, more planning required</title>
+<meta name="description" content="Wan 3 stretches generation length, which changes how you write prompts. Longer clips need a shot plan, not a single sentence.">
+<link rel="canonical" href="https://chesterred.github.io/notes/wan3-fieldnotes.html">
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 42rem; margin: 3rem auto; padding: 0 1.2rem;
+         font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  h1 { font-size: 1.6rem; line-height: 1.28; margin-bottom: .3rem; }
+  .meta { font-size: .85rem; opacity: .6; margin-bottom: 1.6rem; }
+  a { color: inherit; }
+  footer { margin-top: 2.8rem; font-size: .9rem; opacity: .65; }
+</style>
+</head>
+<body>
+<nav><a href="./">← AI video notes</a></nav>
+<h1>Wan 3 first impressions: longer clips, more planning required</h1>
+<div class="meta">2026-11-26 · working notes</div>
+<p>At the longer duration setting, the model holds a scene together far better than earlier versions, but it also invents action you did not ask for. My first attempt at a static product shot ended with the camera drifting into a wall. Writing an explicit &quot;camera stays fixed, subject does X&quot; clause fixed it, and that clause is now part of every prompt I write.</p>
+<p>The trade-off for longer clips is fewer generations per credit, so a bad prompt is expensive. I now test the same idea at the shortest duration first and only extend once the composition works. Current limits are on <a href="https://wan-3.io/">Wan 3</a>, including the credit cost per second, which is the number that actually governs iteration.</p>
+<p>Physics is the visible weak spot: cloth and hair behave plausibly, liquids and rigid collisions do not. Splashes look like jelly and dropped objects sometimes pass through surfaces. For anything mechanical, keep the action simple and cut around the impact frame.</p>
+<p>Verdict: a real step up in scene coherence; still needs a shot list and a budget for failed takes.</p>
+<footer>Working notes on AI video tools. Written and maintained by the site author; no sponsored placement.</footer>
+</body>
+</html>
